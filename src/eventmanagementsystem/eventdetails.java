@@ -33,13 +33,7 @@ public class eventdetails extends JFrame implements ActionListener{
         l3.setBounds(230,10,100,20);
         add(l3);
         
-        // JLabel l4=new JLabel("Caterer");
-        // l4.setBounds(350,10,100,20);
-        // add(l4);
         
-        // JLabel l5=new JLabel("Venue");
-        // l5.setBounds(460,10,100,20);
-        // add(l5);
         
         JLabel l6=new JLabel("Date");
         l6.setBounds(570,10,100,20);
