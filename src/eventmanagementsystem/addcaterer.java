@@ -33,9 +33,9 @@ public class addcaterer extends JFrame implements ActionListener{
             add(l1);
             j+=30;
         }
-        // t1=new JTextField();
-        // t1.setBounds(180,70,150,25);
-        // add(t1);
+        t1=new JTextField();
+        t1.setBounds(180,70,150,25);
+        add(t1);
         
         t2=new JTextField();
         t2.setBounds(180,100,150,25);
