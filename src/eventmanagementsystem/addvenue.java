@@ -26,7 +26,14 @@ public class addvenue extends JFrame implements ActionListener{
 	add(l10);
         int j =0;
         
-        
+        for (int i=0;i<s.length;i++){
+            JLabel l1 = new JLabel(s[i]);
+            l1.setForeground(new Color(25, 25, 112));
+            l1.setFont(new Font("Tahoma", Font.BOLD, 16));
+            l1.setBounds(60, 70+j, 100, 25);
+            add(l1);
+            j+=30;
+        }
         t1=new JTextField();
         t1.setBounds(180,70,150,25);
         add(t1);
