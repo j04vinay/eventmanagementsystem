@@ -30,7 +30,12 @@ public class Register extends JFrame implements ActionListener{
         l1.setFont(new Font("SAN_SERIF",Font.PLAIN,30));
         p1.add(l1);
         
-        
+        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("eventmanagementsystem/icons/login.jpg"));
+        Image i2=i1.getImage().getScaledInstance(200,200,Image.SCALE_DEFAULT);
+        ImageIcon i3=new ImageIcon(i2);
+        JLabel l12=new JLabel(i3);
+        l12.setBounds(50,130,200,200);
+        add(l12);
         
         JPanel p2=new JPanel();
         p2.setBackground(new Color(131,193,233));
